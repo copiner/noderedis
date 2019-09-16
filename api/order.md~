@@ -1,0 +1,30 @@
+### String
+
+incr、decr、incrby、decrby、incrbyfloat
+
+append、getrange、setrange、getbit、setbit、bitcount、bitop
+
+### list
+
+rpush、lpush、rpop、lpop、lindex、lrange、ltrim
+
+blpop、brpop、rpoplpush、brpoplpush
+
+### set
+
+sadd、srem、sismember、scard、smembers、srandmember、spop、smove
+
+sdiff、sdiffstore、sinter、sinterstore、sunion、sunionstore
+
+### hash
+
+hmget、hmset、hdel、hlen
+
+hexists、hkeys、hvals、hgetall、hincrby、hincrbyfloat
+
+### zset
+
+zadd、zrem、zcard、zincrby、zcount、zrank、zscore、zrange
+
+zrevrank、zrevrange、zrangebyscore、zrevrangebyscore、zremrangebyscore、
+zinterstore、zunionstore
