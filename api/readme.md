@@ -21,7 +21,7 @@ $ cd src
 $ make test
 $ make
 
-$ make isntall
+$ make install
 ```
 
 启动
