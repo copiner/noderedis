@@ -1,12 +1,20 @@
 const crypto = require('crypto');
 
 class Utils {
+  //console.log(Utils.currentTimestamp('isMsec'))
+  //console.log(Utils.currentTimestamp(true))
   static currentTimestamp(isMsec = false) {
+    /*
+    static currentTimestamp(isMsec) {
+      let isMsec = isMsec || false;
+    }
+    */
     if (isMsec) {
       return Date.now();
     } else {
       return Math.floor(Date.now() / 1000);
     }
+    
   }
 
   static currentHour() {
@@ -26,6 +34,7 @@ class Utils {
       }, time);
     });
   }
+
 }
 
 module.exports = Utils;

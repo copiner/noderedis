@@ -1,29 +1,29 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true
+    env: {
+        browser: true,
+        commonjs: true,
+        es6: true
     },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 2017,
-        "sourceType": "module"
+    extends: "eslint:recommended",
+    parserOptions: {
+        ecmaVersion: 2017,
+        sourceType: "module"
     },
-    "rules": {
-        "indent": 2,
-        "linebreak-style": [
+    rules: {
+        indent: 2,
+        linebreak-style: [
             "error",
             "windows"
         ],
-        "quotes": [
+        quotes: [
             "error",
             "single",
             "backtick"
         ],
-        "semi": [
+        semi: [
             "error",
             "always"
         ],
-        "no-console": ["error", { allow: ["error", "log"] }]
+        no-console: ["error", { allow: ["error", "log"] }]
     }
-};
+}

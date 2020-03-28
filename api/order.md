@@ -1,40 +1,40 @@
 ### String
-get¡¢set¡¢del
+getã€setã€del
 
-incr¡¢decr¡¢incrby¡¢decrby¡¢incrbyfloat
+incrã€decrã€incrbyã€decrbyã€incrbyfloat
 
-append¡¢getrange¡¢setrange¡¢getbit¡¢setbit¡¢bitcount¡¢bitop
+appendã€getrangeã€setrangeã€getbitã€setbitã€bitcountã€bitop
 
 ### list
-¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢¡¢
+ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€ã€
 
-rpush¡¢lpush¡¢rpop¡¢lpop¡¢lindex¡¢lrange¡¢ltrim
+rpushã€lpushã€rpopã€lpopã€lindexã€lrangeã€ltrim
 
-blpop¡¢brpop¡¢rpoplpush¡¢brpoplpush
+blpopã€brpopã€rpoplpushã€brpoplpush
 
 ### set
 
-sadd¡¢srem¡¢sismember¡¢scard¡¢smembers¡¢srandmember¡¢spop¡¢smove
+saddã€sremã€sismemberã€scardã€smembersã€srandmemberã€spopã€smove
 
-sdiff¡¢sdiffstore¡¢sinter¡¢sinterstore¡¢sunion¡¢sunionstore
+sdiffã€sdiffstoreã€sinterã€sinterstoreã€sunionã€sunionstore
 
 ### hash
-hset¡¢hget¡¢hgetall¡¢hdel
+hsetã€hgetã€hgetallã€hdel
 
-hmget¡¢hmset¡¢hdel¡¢hlen
+hmgetã€hmsetã€hdelã€hlen
 
-hexists¡¢hkeys¡¢hvals¡¢hgetall¡¢hincrby¡¢hincrbyfloat
+hexistsã€hkeysã€hvalsã€hgetallã€hincrbyã€hincrbyfloat
 
 ### zset
 
-zadd¡¢zrem¡¢zcard¡¢zincrby¡¢zcount¡¢zrank¡¢zscore¡¢zrange
+zaddã€zremã€zcardã€zincrbyã€zcountã€zrankã€zscoreã€zrange
 
-zrevrank¡¢zrevrange¡¢zrangebyscore¡¢zrevrangebyscore¡¢zremrangebyscore¡¢
-zinterstore¡¢zunionstore
+zrevrankã€zrevrangeã€zrangebyscoreã€zrevrangebyscoreã€zremrangebyscoreã€
+zinterstoreã€zunionstore
 
 ### pub/sub
 
-subscribe¡¢unsubscribe¡¢publish¡¢psubscribe¡¢punsubscribe
+subscribeã€unsubscribeã€publishã€psubscribeã€punsubscribe
 
 ### other
 
@@ -42,6 +42,6 @@ subscribe¡¢unsubscribe¡¢publish¡¢psubscribe¡¢punsubscribe
 
 2. transaction
 
-watch¡¢multi¡¢exec¡¢unwatch¡¢discard
+watchã€multiã€execã€unwatchã€discard
 
-3. persist ttl¡¢expire¡¢expireat¡¢pttl¡¢pexpire¡¢pexpireat
+3. persist ttlã€expireã€expireatã€pttlã€pexpireã€pexpireat

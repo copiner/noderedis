@@ -1,13 +1,20 @@
-const Redis = require('ioredis');
+const Redis = require('ioredis');//源码分析
 const ch01 = require('./main');
 
-async function run() {
+(async function() {
+
   const redis = new Redis({
-    db: 15,
+    port: 6379, // Redis port
+    host: "127.0.0.1", // Redis host
+    family: 4, // 4 (IPv4) or 6 (IPv6)
+    //password: "auth",
+    db: 15
   });
+
   redis.on('error', error => {
     debug('Redis connection error', error);
   });
+
   await redis.flushdb();
 
   const articleId = await ch01.postArticle(
@@ -37,6 +44,5 @@ async function run() {
   console.log(await ch01.getGroupArticles(redis, 'new-group', 1));
 
   await redis.quit();
-}
 
-run();
+})();
